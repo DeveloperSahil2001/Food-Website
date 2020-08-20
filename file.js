@@ -1,3 +1,20 @@
+function validate()
+{
+var first=document.getElementById("fname").value;
+var rel=/^[A-Za-z\s\-\']{2,15}$/;
+if(rel.test(first))
+{
+document.getElementById("demo1").style.color="green";
+document.getElementById("demo1").innerHTML="<b>valid</b>"
+return true;
+}
+else
+{
+document.getElementById("demo1").style.color="red";
+document.getElementById("demo1").innerHTML="<b>invalid</b>";
+return false;
+}
+
 function showveg() {
 	document.getElementById("non_veg").style.display = "none";
 	document.getElementById("veg").style.display = "block";
