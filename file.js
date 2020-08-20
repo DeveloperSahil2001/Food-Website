@@ -14,6 +14,7 @@ document.getElementById("demo1").style.color="red";
 document.getElementById("demo1").innerHTML="<b>invalid</b>";
 return false;
 }
+}
 
 function showveg() {
 	document.getElementById("non_veg").style.display = "none";
