@@ -1,6 +1,6 @@
 function validate()
 {
-var first=document.getElementById("fname").value;
+var first=document.getElementById("input_txt").value;
 var rel=/^[A-Za-z\s\-\']{2,15}$/;
 if(rel.test(first))
 {
