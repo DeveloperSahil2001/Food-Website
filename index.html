@@ -302,7 +302,7 @@
 		<hr style="background: #3b97e6;width: 35vw;text-align: center;margin: auto;height: 2px;max-width: 200px;margin-bottom: 50px;">
 		<div class="book">
 			<form onsubmit="show();">
-				<input type="text" maxlength="50" id="input_txt" placeholder="Name..." required>
+				<input type="text" onblur="validate();" maxlength="50" id="input_txt" placeholder="Name..." required><span id="demo2"></span>
 				<input type="number" min="0" max="10" id="member" placeholder="Number of members..." required>
 				<textarea placeholder="Any Special Message" id="msg"></textarea>
 				<input type="submit" value="BOOK TABLE" id="submit">
